@@ -1,6 +1,4 @@
-const Engine = Engine;
-const World= World;
-const Bodies = Bodies;
+var Engine = Matter.Engine, World = Matter.World, Events = Matter.Events, Bodies = Matter.Bodies;
 
 var engine, world;
 var ground
